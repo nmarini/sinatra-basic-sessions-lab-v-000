@@ -14,7 +14,7 @@ class App < Sinatra::Base
 
   post '/checkout' do
 
-    @sessions = sessions 
+    @sessions = sessions
     binding.pry
 
     erb :checkout
